@@ -2,8 +2,8 @@
 /**
  * Write a description of class Calculator here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author monikafebrina
+ * @version 0.1
  */
 public class Calculator
 {
@@ -98,9 +98,10 @@ public class Calculator
         this.op2 = op2;
         return jumlah();
     }
+    
     public double kurang()
     {
-        return this.op1- this.op2;
+        return this.op1 - this.op2;
     }
      /**
      * kurang dengan parameter
@@ -115,6 +116,24 @@ public class Calculator
         this.op1 = op1;
         this.op2 = op2;
         return this.op1- this.op2;
+    }
+    public double kali()
+    {
+        return this.op1 * this.op2;
+    }
+     /**
+     * kali dengan parameter
+     *
+     * @param  double op1
+     *         double op2
+     * @return double hasil pengurangan op1 - op2
+     */
+
+     public double kali(double op1, double op2) 
+    {
+        this.op1 = op1;
+        this.op2 = op2;
+        return this.op1 * this.op2;
     }
     
 

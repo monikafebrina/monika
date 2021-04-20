@@ -30,15 +30,21 @@ public static void main(String args[])
        
        System.out.println("");
        double hasil1 = calculator1.jumlah();
-       double hasil2 = calculator1.jumlah(3.4, 5.4);
+       double hasil2 = calculator1.jumlah(6.2 , 4.2);
        System.out.println("Hasil penjumlahan method jumlah tanpa parameter: "+ hasil1);
        System.out.println("Hasil penjumlahan method jumlah dengan parameter: "+ hasil2);
        
        System.out.println("");
        double kurang1 = calculator1.kurang();
-       double kurang2 = calculator1.kurang(3.4, 5.4);
+       double kurang2 = calculator1.kurang(6.2,  4.2 );
        System.out.println("Hasil pengurangan method kurang tanpa parameter:  " + kurang1);
        System.out.println("Hasil pengurangan  method kurang dengan parameter:  "+ kurang2);
+       
+       System.out.println("");
+       double kali1 = calculator1.kali();
+       double kali2 = calculator1.kali(6.2,  4.2 );
+       System.out.println("Hasil perkalian method kali tanpa parameter:  " + kali1);
+       System.out.println("Hasil peekalian  method kali dengan parameter:  "+ kali2);
        
     }
     

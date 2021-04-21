@@ -1,4 +1,4 @@
-
+ 
 /**
  * Write a description of class Calculator here.
  *
@@ -126,7 +126,7 @@ public class Calculator
      *
      * @param  double op1
      *         double op2
-     * @return double hasil pengurangan op1 - op2
+     * @return double hasil perkalian op1 * op2
      */
 
      public double kali(double op1, double op2) 
@@ -135,6 +135,23 @@ public class Calculator
         this.op2 = op2;
         return this.op1 * this.op2;
     }
-    
+    public double bagi()
+    {
+        return this.op1 / this.op2;
+    }
+     /**
+     * bagi dengan parameter
+     *
+     * @param  double op1
+     *         double op2
+     * @return double hasil pembagian op1 \op2
+     */
+
+     public double bagi(double op1, double op2) 
+    {
+        this.op1 = op1;
+        this.op2 = op2;
+        return this.op1 /this.op2;
+    }
 
 }

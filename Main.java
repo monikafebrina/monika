@@ -2,7 +2,7 @@
 /**
  * Write a description of class Main here.
  *
- * @author (your name)
+ * @author (your name) 
  * @version (a version number or a date)
  */
 public class Main
@@ -46,6 +46,12 @@ public static void main(String args[])
        System.out.println("Hasil perkalian method kali tanpa parameter:  " + kali1);
        System.out.println("Hasil peekalian  method kali dengan parameter:  "+ kali2);
        
+        
+       System.out.println("");
+       double bagi1 = calculator1.bagi();
+       double bagi2 = calculator1.bagi(6.2,  4.2  );
+       System.out.println("Hasil pembagian method bagi tanpa parameter:  " + bagi1);
+       System.out.println("Hasil pembagian method bagi dengan parameter:  "+ bagi2);
     }
     
 }

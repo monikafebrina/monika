@@ -1,3 +1,2 @@
-# Aplikasi Monitoring
-
-[![N|Solid](https://github.com/lessydien/MonitoringMahasiswa/blob/master/sc2.png)](https://github.com/lessydien/MonitoringMahasiswa/blob/master/sc2.png)
+#Aplikasi kalkulator
+[![N]Solid](https://github.com/monikafebrina/monika/blob/master/ss%201.1.png)(https://github.com/monikafebrina/monika/blob/master/ss%201.1.png)

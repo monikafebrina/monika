@@ -1,13 +1,12 @@
-
 /**
  * Write a description of class Main here.
  *
- * @author (your name) 
+ * @author (your name)
  * @version (a version number or a date)
  */
 public class Main
 {
-public static void main(String args[])
+    public static void main(String args[])
     {
        System.out.println(Calculator.info);
        
@@ -52,7 +51,23 @@ public static void main(String args[])
        double bagi2 = calculator1.bagi(6.2,  4.2  );
        System.out.println("Hasil pembagian method bagi tanpa parameter:  " + bagi1);
        System.out.println("Hasil pembagian method bagi dengan parameter:  "+ bagi2);
-    }
+       
+       
+  
+       CalculatorProgrammer clp = new CalculatorProgrammer();
+       System.out.println(" \n CalculatorProgrammer");
+       System.out.println("Bentuk Biner dari Desimal " + " :"+ Integer.toBinaryString(5));
+       System.out.println("Bentuk Hex dari Desimal " + " :"+ Integer.toHexString(5));
+
     
+      Calculatorscientific cs = new Calculatorscientific();
+      System.out.println(" \n Calculatorscientific");
+      System.out.println("Faktorial dari 6! adalah" + cs. menghitungFaktorial(5));
+      System.out.println("luas lingkarannya adalah" + cs.luas());
+      System.out.println("luas Bujur sangkar adalah" + cs.bujurSangkar(10));
 }
+}
+
+
+
 

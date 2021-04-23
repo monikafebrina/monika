@@ -2,8 +2,8 @@
 /**
  * Write a description of class CalculatorProgrammer here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author MonikaFebrina
+ * @version 0.1
  */
 public class CalculatorProgrammer extends Calculator
 {
@@ -51,14 +51,14 @@ public class CalculatorProgrammer extends Calculator
      *         double op2
      * @return double hasil penjumlahan op1 + op2
      */
-   class rekursiHexa {
-    void DesimalToHexa(int n) {
+    
+     public void DesimalToHexa(int n) {
         if (n > 1) {
             DesimalToHexa(n / 16);
         }
         System.out.print(n % 16);
     }
-}
+
      /**
      * konversiBilanganDesimaltobiner
      *
@@ -66,15 +66,15 @@ public class CalculatorProgrammer extends Calculator
      *         double op2
      * @return double hasil penjumlahan op1 + op2
      */
-   class rekursibiner {
-    void DesimalToBiner(int n) {
+   
+     public void DesimalToBiner(int n) {
         if (n > 1) {
             DesimalToBiner(n / 2);
         }
         System.out.print(n % 2);
     }
 }
-}
+
 
 
 

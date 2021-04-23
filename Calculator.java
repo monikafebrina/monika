@@ -2,7 +2,7 @@
 /**
  * Write a description of class Calculator here.
  *
- * @author monikafebrina
+ * @author MonikaFebrina
  * @version 0.1
  */
 public class Calculator

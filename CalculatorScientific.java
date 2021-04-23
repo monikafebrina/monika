@@ -1,16 +1,16 @@
 
 /**
- * Write a description of class Calculatorscientific here.
+ * Write a description of class CalculatorScientific here.
  *
- * @author (MONIK)
- * @version (a version number or a date)
+ * @author MonikaFebrina
+ * @version 0.1
  */
-public class Calculatorscientific extends Calculator
+public class CalculatorScientific extends Calculator
 {
      /**
      * Constructor for objects of class Calculator
      */
-    public Calculatorscientific()
+    public CalculatorScientific()
     {
         // initialise instance variables
         super.jumlahobject += 1;
@@ -22,7 +22,7 @@ public class Calculatorscientific extends Calculator
      * @param  double, double inisialisasi nilai dari op1 dan op2
     */
   
-    public Calculatorscientific(double op1, double op2)
+    public CalculatorScientific(double op1, double op2)
     {
         super.op1 = op1;
         super.op2 = op2;
@@ -35,7 +35,7 @@ public class Calculatorscientific extends Calculator
      * @param  double, double inisialisasi nilai dari op1 dan op2
     */
   
-    public Calculatorscientific(double op2)
+    public CalculatorScientific(double op2)
     {
         
         super.op2 = op2;
@@ -71,10 +71,3 @@ public class Calculatorscientific extends Calculator
     }
 
 }
-
-    
-
-    
-    
-
-

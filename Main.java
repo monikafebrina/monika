@@ -1,8 +1,8 @@
 /**
  * Write a description of class Main here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author MonikaFebrina
+ * @version 0.1
  */
 public class Main
 {
@@ -54,17 +54,27 @@ public class Main
        
        
   
-       CalculatorProgrammer clp = new CalculatorProgrammer();
-       System.out.println(" \n CalculatorProgrammer");
-       System.out.println("Bentuk Biner dari Desimal " + " :"+ Integer.toBinaryString(5));
-       System.out.println("Bentuk Hex dari Desimal " + " :"+ Integer.toHexString(5));
+      //CalculatorProgrammer clp = new CalculatorProgrammer();
+      System.out.println(" \n CalculatorProgrammer");
+      System.out.println("Bentuk Biner dari Desimal " + " :"+ Integer.toBinaryString(5));
+      System.out.println("Bentuk Hex dari Desimal " + " :"+ Integer.toHexString(5));
 
     
-      Calculatorscientific cs = new Calculatorscientific();
+      CalculatorScientific cs = new CalculatorScientific();
       System.out.println(" \n Calculatorscientific");
-      System.out.println("Faktorial dari 6! adalah" + cs. menghitungFaktorial(5));
+      System.out.println("Faktorial dari 6! adalah" + cs.menghitungFaktorial(5));
       System.out.println("luas lingkarannya adalah" + cs.luas());
-      System.out.println("luas Bujur sangkar adalah" + cs.bujurSangkar(10));
+      System.out.println("luas Bujur sangkar adalah"+ cs.bujurSangkar(10));
+      
+      
+      CalculatorTrigonometri  clr = new CalculatorTriRadian();
+      CalculatorTrigonometri  cld = new CalculatorTriDegree();
+      System.out.println(" \n CalculatorTrigonometri ");
+      System.out.println("Nilai dari sin 30 adalah"+ Math.sin(30));
+      System.out.println("Nilai dari Cos 90 adalah"+ Math.cos(90));
+      System.out.println("Nilai dari tan 60 adalah"+ Math.tan(60));
+      System.out.println("Nilai dari derajat sudut untuk PI/6 adalah " + Math.toDegrees(Math.PI/6) + " derajat");  
+      System.out.println("Nilai dari sudut radian untuk sudut 30 derajat adalah " + Math.toRadians(30));  
 }
 }
 

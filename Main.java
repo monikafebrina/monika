@@ -99,16 +99,16 @@ public class Main
       
       SimpanOperasiCalculator spf = new SimpanOperasiKeMemoryForwad();
       cl.setSimpanOperasi(spf);
-      cl.op1 = 3;
-      cl.op2 = 3;
+      cl.op1 = 1;
+      cl.op2 = 1;
       System.out.println(cl.jumlah());
       
       cl.op1 = 2;
       cl.op2 = 2;
       System.out.println(cl.jumlah());
       
-      cl.op1 = 1;
-      cl.op2 = 1;
+      cl.op1 = 3;
+      cl.op2 = 3;
       System.out.println(cl.jumlah());
       System.out.println("Data dari memori: ");
       System.out.println(cl.bacaOperasi());

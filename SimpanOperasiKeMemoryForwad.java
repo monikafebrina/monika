@@ -49,14 +49,10 @@ public class SimpanOperasiKeMemoryForwad implements SimpanOperasiCalculator
      * @param  void
      * @return void
      */
-    public void dataMemoriKeTampil()
-    {
+      public void dataMemoriKeTampil(){
         this.tampilMemori = "";
-        for(int i=0; i<this.pointer; i++)
-        {
+        for(int i = this.pointer - 1; i >=0; i--){
             this.tampilMemori = this.tampilMemori + " " + this.dataMemori[i] + "\n" ;
         }
-       
     }
-    
 }

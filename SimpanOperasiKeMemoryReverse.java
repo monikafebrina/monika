@@ -53,7 +53,7 @@ public class SimpanOperasiKeMemoryReverse implements SimpanOperasiCalculator
      * @param  void
      * @return void
      */
-    public void dataMemoriKeTampil()
+   public void dataMemoriKeTampil()
     {
         this.tampilMemori = "";
         for(int i=0; i<this.pointer; i++)
@@ -62,6 +62,5 @@ public class SimpanOperasiKeMemoryReverse implements SimpanOperasiCalculator
         }
        
     }
-    
 }
    
